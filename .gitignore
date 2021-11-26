@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+/venv
+/images
+*.png
+/.idea
+/__pycache__

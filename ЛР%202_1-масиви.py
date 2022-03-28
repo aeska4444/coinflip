@@ -1,6 +1,6 @@
 import random
 
-size = 10
+size = 4
 
 A = [[random.randint(-10, 10) for i in range(size)] for j in range(size)]
 pd = primediagonal = [A[i][i] for i in range(size)]
@@ -9,7 +9,7 @@ sd = seconddiagonal = [A[i][-1*(i+1)] for i in range(size)]
 
 def bubble(arr):
 
-    sortedarr = arr
+    sortedarr = arr[:]
     n = len(arr)
     for i in range(n):
         for j in range(0, n - i - 1):
@@ -33,4 +33,4 @@ for i in range(len(pd)):
     sum += pd[i]
 print(count, sum)
 #3
-print(bubble(pd))
+print(*bubble(pd), pd)

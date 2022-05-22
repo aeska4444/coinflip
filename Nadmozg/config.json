@@ -1,0 +1,25 @@
+{
+  "difficulty": [
+    {
+      "name": "easy",
+      "answ_opt": 2,
+      "chunk_size": 8,
+      "trans_chain": "ru"
+    },
+    {
+      "name": "normal",
+      "answ_opt": 4,
+      "chunk_size": 4,
+      "trans_chain": "de-ru"
+    },
+    {
+      "name": "hard",
+      "answ_opt": 6,
+      "chunk_size": 2,
+      "trans_chain": "uz-ja-uk"
+    }
+],
+"show_lyrics": 0,
+"open_youtube": 1,
+"game_loop": 1
+}
